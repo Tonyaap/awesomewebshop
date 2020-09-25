@@ -4,7 +4,9 @@ const PORT = 4000;
 const orderRouter = require("./routers/order");
 const productRouter = require("./routers/products");
 const categoryRouter = require("./routers/categories");
+const cors = require("cors");
 
+app.use(cors());
 app.use(express.json());
 
 app.use("/orders", orderRouter);

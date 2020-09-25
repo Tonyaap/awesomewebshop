@@ -5,7 +5,6 @@ const router = new Router();
 router.get("/", async (req, res, next) => {
   try {
     const categories = await Category.findAll();
-
     res.json(categories);
   } catch (e) {
     next(e);
