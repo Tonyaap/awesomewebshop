@@ -4,9 +4,9 @@
 
 Routes for:
 
-[]]GET /products - get me all the products
+[X] GET /products - get me all the products
 
-- GET /categories (probably including the products)
+- [x] GET /categories (probably including the products)
 
 ## frontend:
 
