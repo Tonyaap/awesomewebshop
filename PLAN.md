@@ -4,7 +4,11 @@
 
 Routes for:
 
+<<<<<<< HEAD
+[v]GET /products - get me all the products
+=======
 [X] GET /products - get me all the products
+>>>>>>> abc0db4149162b1a89360573f6e11e9e947a626d
 
 - [x] GET /categories (probably including the products)
 
