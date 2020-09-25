@@ -4,7 +4,7 @@
 
 Routes for:
 
-[]]GET /products - get me all the products
+[v]GET /products - get me all the products
 
 - GET /categories (probably including the products)
 
